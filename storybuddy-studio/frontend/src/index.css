@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Smooth scrollbar for story panel */
+  .story-scroll::-webkit-scrollbar {
+    width: 6px;
+  }
+  .story-scroll::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 3px;
+  }
+  .story-scroll::-webkit-scrollbar-thumb {
+    background: #c4b5fd;
+    border-radius: 3px;
+  }
+}
+
+@layer components {
+  /* Prose styling for rendered markdown */
+  .story-prose h1 {
+    @apply text-3xl font-bold text-buddy-purple mb-4 font-story;
+  }
+  .story-prose h2 {
+    @apply text-xl font-bold text-gray-800 mt-8 mb-3 font-story;
+  }
+  .story-prose h3 {
+    @apply text-lg font-semibold text-buddy-purple mt-6 mb-2;
+  }
+  .story-prose p {
+    @apply text-gray-700 leading-relaxed mb-4;
+  }
+  .story-prose blockquote {
+    @apply border-l-4 border-buddy-yellow bg-buddy-yellow-light px-4 py-3 rounded-r-lg my-4 text-gray-700 italic;
+  }
+  .story-prose hr {
+    @apply border-buddy-purple-light my-6;
+  }
+  .story-prose strong {
+    @apply font-semibold text-gray-900;
+  }
+}

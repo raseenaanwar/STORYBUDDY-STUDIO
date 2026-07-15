@@ -1,0 +1,10 @@
+{
+  "tasks": [
+    { "id": "1", "label": "Give your hero a name and a description", "done": true },
+    { "id": "2", "label": "Choose a setting for your adventure", "done": true },
+    { "id": "3", "label": "Type your big story idea in the Spark Box", "done": true },
+    { "id": "4", "label": "Decide what is behind the glowing door", "done": false },
+    { "id": "5", "label": "Give ARWA a special power or secret", "done": false }
+  ],
+  "advice": "The door knocked back at Alex — that means something KNOWS they are there! What does Alex say or do next? Add it to your Spark Box!"
+}

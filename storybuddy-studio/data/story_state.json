@@ -1,0 +1,38 @@
+{
+  "title": "My Amazing Adventure",
+  "characters": [
+    {
+      "id": "hero",
+      "name": "Alex",
+      "description": "A curious and brave kid who loves solving puzzles",
+      "modifier": ""
+    },
+    {
+      "id": "sidekick",
+      "name": "Pip",
+      "description": "A tiny talking fox who is Alex's best friend",
+      "modifier": "speaks in rhymes"
+    },
+    {
+      "id": "v19mmae",
+      "name": "ARWA",
+      "description": "A CURIOS GIRL WANDERING FOR ADVENTURES",
+      "modifier": ""
+    }
+  ],
+  "settings": [
+    {
+      "id": "setting1",
+      "name": "The Whispering Forest",
+      "description": "A magical forest where the trees hum ancient songs at night"
+    }
+  ],
+  "raw_input": "Alex and Pip discover a glowing door hidden behind the oldest tree in the forest, ARWA CAME FROM SCHOOL SUDDENLY STARTED RAIN",
+  "completed_tasks": [
+    "1",
+    "2",
+    "3"
+  ],
+  "chapter_count": 1,
+  "last_updated": "2026-07-15T03:26:08.897712+00:00"
+}

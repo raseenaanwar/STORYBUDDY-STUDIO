@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "sync-storybook-on-canvas-change",
+      "trigger": "PostToolUse",
+      "matcher": "fs_write",
+      "action": {
+        "type": "agent",
+        "prompt": "Check the tool_response in the hook context. If it does NOT mention 'generate_prompt.md', stop immediately and do nothing.\n\nIf it DOES mention 'generate_prompt.md':\n1. Read the full contents of data/generate_prompt.md — it has the complete story generation instructions already written inside it\n2. Follow those instructions exactly to write the next chapter\n3. Write the story to data/story_book.md\n4. Write tasks to data/tasks.json\n5. Increment chapter_count by 1 in data/story_state.json"
+      }
+    }
+  ]
+}
